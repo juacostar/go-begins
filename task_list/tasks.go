@@ -79,4 +79,8 @@ func main() {
 	}
 
 	// break: breaks the loop, continue breaks in an especific index
+
+	tasksMap := make(map[string]*taskList)
+	tasksMap["Juan"] = list
+
 }
